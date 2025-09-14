@@ -1,0 +1,1 @@
+Traditional pipeline was skipped using --skip_traditional flag

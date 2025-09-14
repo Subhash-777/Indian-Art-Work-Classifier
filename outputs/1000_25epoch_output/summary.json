@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "total_images": 29060,
+    "num_classes": 30,
+    "img_size": 256,
+    "backbone": "efficientnet_b0",
+    "epochs": 25,
+    "skip_traditional": true
+  },
+  "traditional": {},
+  "deep_val": {
+    "acc": 0.9805959805959806,
+    "macro_f1": 0.9722105191816385,
+    "kappa": 0.9799052457036794
+  },
+  "deep_test": {
+    "acc": 0.9813169286853497,
+    "macro_f1": 0.9726539952922408,
+    "kappa": 0.9806522772353236
+  },
+  "deep_features_rf": {}
+}

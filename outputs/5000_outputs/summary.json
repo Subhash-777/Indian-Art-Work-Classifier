@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "total_images": 150000,
+    "num_classes": 30,
+    "deep_img_size": 256,
+    "feature_size": 256,
+    "backbone": "resnet50",
+    "epochs": 30,
+    "skip_traditional": true
+  },
+  "traditional": {},
+  "deep_val": {
+    "acc": 0.9959056519804184,
+    "macro_f1": 0.9959054455901613,
+    "kappa": 0.99576446756595
+  },
+  "deep_test": {
+    "acc": 0.9953839325343986,
+    "macro_f1": 0.9953831037342822,
+    "kappa": 0.9952247577942054
+  },
+  "deep_features_rf": {
+    "val_acc": 0.9838896306186026,
+    "val_macro_f1": 0.9839108987907642,
+    "val_kappa": 0.9833341006399337,
+    "test_acc": 0.9848646249445184,
+    "test_macro_f1": 0.9848689780415847,
+    "test_kappa": 0.9843427154598466,
+    "train_time_s": 2680.159295320511
+  }
+}
