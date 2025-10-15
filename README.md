@@ -72,7 +72,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 python -c "import torch; print('CUDA:', torch.cuda.is_available())"  # should print CUDA: True
 
 # Install additional dependencies
-pip install timm albumentations pytorch-grad-cam umap-learn seaborn opencv-python scikit-image scikit-learn pandas matplotlib tqdm
+pip install timm albumentations grad-cam umap-learn seaborn opencv-python scikit-image scikit-learn pandas matplotlib tqdm
 ```
 
 ### Alternative CPU-only Installation
